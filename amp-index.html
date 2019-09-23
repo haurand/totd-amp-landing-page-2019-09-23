@@ -1,135 +1,93 @@
+<!DOCTYPE html>
 <html ⚡ lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,minimum-scale=1">
+        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
         <meta name="description" content="This is the AMP Boilerplate.">
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <!-- Import other AMP Extensions here -->
-        <style amp-custom>
-        /* Add your styles here */
+        <style amp-custom>/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}details,footer,header,main,nav{display:block}[hidden],template{display:none}a:active,a:hover{outline:0}h1{margin:.67em 0}hr{height:0;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}button{margin:0;font:inherit;color:inherit;overflow:visible;text-transform:none;-webkit-appearance:button;cursor:pointer}button[disabled]{cursor:default}.btn,[role=button]{cursor:pointer}button::-moz-focus-inner{padding:0;border:0}/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,:after,:before{color:#000;text-shadow:none;background:0 0;-webkit-box-shadow:none;box-shadow:none}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}a[href^="javascript:"]:after,a[href^="#"]:after{content:""}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}.navbar{display:none}}.btn,.btn-default:active,.btn-primary:active,.btn:active,.navbar-toggle{background-image:none}@font-face{font-family:'Glyphicons Halflings';src:url(../fonts/glyphicons-halflings-regular.eot);src:url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'),url(../fonts/glyphicons-halflings-regular.woff) format('woff'),url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:transparent}body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}button{font-family:inherit;font-size:inherit;line-height:inherit}a{background-color:transparent;color:#337ab7;text-decoration:none}a:focus,a:hover{color:#23527c;text-decoration:underline}a:focus{outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}.btn,.btn-link{font-weight:400}.h1,.h2,.h3,h1,h2,h3{margin-top:20px;margin-bottom:10px}.h4,.h5,.h6,h4,h5,h6{margin-top:10px;margin-bottom:10px}.h1,h1{font-size:36px}.h2,h2{font-size:30px}.h3,h3{font-size:24px}.h4,h4{font-size:18px}.h5,h5{font-size:14px}.h6,h6{font-size:12px}p{margin:0 0 10px}.btn,.nav{margin-bottom:0}.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}.container>.navbar-collapse,.container>.navbar-header,.row{margin-right:-15px;margin-left:-15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9{position:relative;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:992px){.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}}@media (min-width:1200px){.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}}.btn{display:inline-block;padding:6px 12px;font-size:14px;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;border-radius:4px}.btn:active.focus,.btn:active:focus,.btn:focus{outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}.btn:focus,.btn:hover{color:#333;text-decoration:none}.btn:active{outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn[disabled]{cursor:not-allowed;filter:alpha(opacity=65);-webkit-box-shadow:none;box-shadow:none;opacity:.65}.btn-default{color:#333;background-color:#fff;border-color:#ccc}.btn-default:focus{color:#333;background-color:#e6e6e6;border-color:#8c8c8c}.btn-default:active,.btn-default:hover{color:#333;background-color:#e6e6e6;border-color:#adadad}.btn-default:active.focus,.btn-default:active:focus,.btn-default:active:hover{color:#333;background-color:#d4d4d4;border-color:#8c8c8c}.btn-default[disabled]:focus,.btn-default[disabled]:hover{background-color:#fff;border-color:#ccc}.btn-primary{color:#fff;background-color:#337ab7;border-color:#2e6da4}.btn-primary:focus{color:#fff;background-color:#286090;border-color:#122b40}.btn-primary:active,.btn-primary:hover{color:#fff;background-color:#286090;border-color:#204d74}.btn-primary:active.focus,.btn-primary:active:focus,.btn-primary:active:hover{color:#fff;background-color:#204d74;border-color:#122b40}.btn-primary[disabled]:focus,.btn-primary[disabled]:hover{background-color:#337ab7;border-color:#2e6da4}.btn-link{color:#337ab7;border-radius:0}.btn-link,.btn-link:active,.btn-link[disabled]{background-color:transparent;-webkit-box-shadow:none;box-shadow:none}.btn-link,.btn-link:active,.btn-link:focus,.btn-link:hover{border-color:transparent}.btn-link:focus,.btn-link:hover{color:#23527c;text-decoration:underline;background-color:transparent}.btn-link[disabled]:focus,.btn-link[disabled]:hover{color:#777;text-decoration:none}.btn-lg{padding:10px 16px;font-size:18px;line-height:1.3333333;border-radius:6px}.collapse{display:none}.nav{padding-left:0;list-style:none}.navbar{position:relative;min-height:50px;margin-bottom:20px;border:1px solid transparent}.navbar-collapse{padding-right:15px;padding-left:15px;overflow-x:visible;-webkit-overflow-scrolling:touch;border-top:1px solid transparent;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.1);box-shadow:inset 0 1px 0 rgba(255,255,255,.1)}.navbar-fixed-top .navbar-collapse{max-height:340px}@media (max-device-width:480px) and (orientation:landscape){.navbar-fixed-top .navbar-collapse{max-height:200px}}@media (min-width:768px){.navbar{border-radius:4px}.navbar-header{float:left}.navbar-collapse{width:auto;border-top:0;-webkit-box-shadow:none;box-shadow:none}.navbar-collapse.collapse{display:block;height:auto;padding-bottom:0;overflow:visible}.navbar-fixed-top .navbar-collapse{padding-right:0;padding-left:0}.container>.navbar-collapse,.container>.navbar-header{margin-right:0;margin-left:0}.navbar-fixed-top{border-radius:0}}.navbar-fixed-top{position:fixed;right:0;left:0;z-index:1030;top:0;border-width:0 0 1px}.navbar-brand{float:left;height:50px;padding:15px;font-size:18px;line-height:20px}.navbar-brand:focus,.navbar-brand:hover{text-decoration:none}.navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:8px;margin-right:15px;margin-bottom:8px;background-color:transparent;border:1px solid transparent;border-radius:4px}.navbar-toggle:focus{outline:0}.navbar-toggle .icon-bar{display:block;width:22px;height:2px;border-radius:1px}.navbar-toggle .icon-bar+.icon-bar{margin-top:4px}@media (min-width:768px){.navbar>.container .navbar-brand{margin-left:-15px}.navbar-toggle{display:none}}.navbar-nav{margin:7.5px -15px}@media (min-width:768px){.navbar-nav{float:left;margin:0}}.navbar-btn{margin-top:8px;margin-bottom:8px}.navbar-default{background-color:#f8f8f8;border-color:#e7e7e7}.navbar-default .navbar-brand{color:#777}.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{color:#5e5e5e;background-color:transparent}.navbar-default .navbar-toggle{border-color:#ddd}.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover{background-color:#ddd}.navbar-default .navbar-toggle .icon-bar{background-color:#888}.navbar-default .navbar-collapse{border-color:#e7e7e7}.navbar-default .navbar-link{color:#777}.navbar-default .navbar-link:hover{color:#333}.navbar-default .btn-link{color:#777}.navbar-default .btn-link:focus,.navbar-default .btn-link:hover{color:#333}.navbar-default .btn-link[disabled]:focus,.navbar-default .btn-link[disabled]:hover{color:#ccc}.navbar-inverse{background-color:#222;border-color:#080808}.navbar-inverse .navbar-brand{color:#9d9d9d}.navbar-inverse .navbar-brand:focus,.navbar-inverse .navbar-brand:hover{color:#fff;background-color:transparent}.navbar-inverse .navbar-toggle{border-color:#333}.navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:hover{background-color:#333}.navbar-inverse .navbar-toggle .icon-bar{background-color:#fff}.navbar-inverse .navbar-collapse{border-color:#101010}.navbar-inverse .navbar-link{color:#9d9d9d}.navbar-inverse .navbar-link:hover{color:#fff}.navbar-inverse .btn-link{color:#9d9d9d}.navbar-inverse .btn-link:focus,.navbar-inverse .btn-link:hover{color:#fff}.navbar-inverse .btn-link[disabled]:focus,.navbar-inverse .btn-link[disabled]:hover{color:#444}.jumbotron,.jumbotron .h1,.jumbotron h1{color:inherit}.jumbotron{padding-top:30px;padding-bottom:30px;margin-bottom:30px;background-color:#eee}.jumbotron p{margin-bottom:15px;font-size:21px;font-weight:200}.jumbotron>hr{border-top-color:#d5d5d5}.container .jumbotron{padding-right:15px;padding-left:15px;border-radius:6px}.jumbotron .container{max-width:100%}@media screen and (min-width:768px){.jumbotron{padding-top:48px;padding-bottom:48px}.container .jumbotron{padding-right:60px;padding-left:60px}.jumbotron .h1,.jumbotron h1{font-size:63px}}@-webkit-keyframes progress-bar-stripes{from{background-position:40px 0}to{background-position:0 0}}@-o-keyframes progress-bar-stripes{from{background-position:40px 0}to{background-position:0 0}}@keyframes progress-bar-stripes{from{background-position:40px 0}to{background-position:0 0}}.container:after,.container:before,.nav:after,.nav:before,.navbar-collapse:after,.navbar-collapse:before,.navbar-header:after,.navbar-header:before,.navbar:after,.navbar:before,.row:after,.row:before{display:table;content:" "}.container:after,.nav:after,.navbar-collapse:after,.navbar-header:after,.navbar:after,.row:after{clear:both}.hidden,.visible-lg,.visible-md{display:none}@media (min-width:992px) and (max-width:1199px){.visible-md{display:block}}@media (min-width:1200px){.visible-lg{display:block}.hidden-lg{display:none}}@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none}}
+        h1, h2, h3, h4, h5, h6 {font-weight: bold; color: #165128; /*text-shadow: 2px 2px 8px #193740;*/}
+        h1{font-size: 38px;text-align: center;}
+        header {color: #000; text-align:left; padding: 15px;}
+        .byline {margin-bottom: 10px;}
+        input[type="email"] {width: 100%; padding: 10px;font-size: 16px;}
+        input[type="submit"] {width: 100%; padding: 10px;color: #fff;height: 42px;font-size: 16px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#165128+0,0c2d15+100 */
+            background: #165128; /* Old browsers */
+            background: -moz-linear-gradient(top, #165128 0%, #165128 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, #165128 0%,#165128 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, #165128 30%, #165128 30%, #165128 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#165128', endColorstr='#0c2d15',GradientType=0 ); /* IE6-9 */}
+        .img-fluid {margin-bottom: 10px;}
+        .col-centered{float: none;margin: 0 auto;}
+        .head-title, .logo-wrapper, article {max-width: 600px;padding: 0 15px;}
+            p{font-size: 17px;}
+        .head-title p{color: #165128; /*text-shadow: 2px 2px 8px #193740;*/}
+        .head-title h4{color: #333;}
+        .title-wrapper{    /*background: #3D351D url(//s3.amazonaws.com/cdn.energyandresourcesdigest.com/images/map-bg.png) top center no-repeat;*/ background:#d8d7d6 url(https://s3.amazonaws.com/assets.oxfordclub.com/images/wealthyretirement/wr-newlayout-money-bg-darker.png) top center no-repeat;  color: #fff;padding: 10px;margin-bottom: 40px;}
+        .lp-bullets{margin-left: 36px;}
+        .title-wrapper .lp-bullets ul{list-style: none; padding: 0px 10px 10px 0px;line-height: 2;}
+        .title-wrapper .lp-bullets ul li{
+            list-style-image: url('https://s3.amazonaws.com/assets.manwardpress.com/images/mw-landing-v2/checkmark.png');font-size: 17px;
+            line-height: 1.8em;color: #333;}
+        .email-wrapper{padding: 0px;}
+        .top-img{width: 100%; height: 384px;}
+        .logo{width: 350px; height: 46px; margin-bottom: 0px;}
+        .small{font-size: 13px;padding-top: 16px; margin-bottom: 9px;}
+        .s-small{font-size: 13px;margin-bottom: 9px;}
         </style>
-        <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-    
+        <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript>
+            <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
         <link rel="canonical" href=".">
-        <title>My AMP Page</title>
+        <title>Trade of the Day</title>
     </head>
+
     <body>
-        <!-- LOGO -->
-    <header>
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1288.6 180" style="enable-background:new 0 0 1288.6 180;" xml:space="preserve">
-                <style type="text/css">
-                    .st0 {
-                        fill-rule: evenodd;
-                        clip-rule: evenodd;
-                        fill: url(#SVGID_1_);
-                    }
-                    
-                    .st1 {
-                        fill-rule: evenodd;
-                        clip-rule: evenodd;
-                        fill: url(#SVGID_2_);
-                    }
-                    
-                    .st2 {
-                        fill-rule: evenodd;
-                        clip-rule: evenodd;
-                        fill: url(#SVGID_3_);
-                    }
-                    
-                    .st3 {
-                        fill-rule: evenodd;
-                        clip-rule: evenodd;
-                        fill: url(#SVGID_4_);
-                    }
-                    
-                    .st4 {
-                        fill-rule: evenodd;
-                        clip-rule: evenodd;
-                        fill: url(#SVGID_5_);
-                    }
-                    
-                    .st5 {
-                        fill: #FFFFFF;
-                    }
-                    
-                    .st6 {
-                        fill: #BCBEC0;
-                    }
-                    
-                    .st7 {
-                        fill-rule: evenodd;
-                        clip-rule: evenodd;
-                        fill: #FFFFFF;
-                    }
-                </style>
-                <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="44.9656" y1="140" x2="44.9656" y2="70">
-                    <stop offset="0" style="stop-color:#F27029" />
-                    <stop offset="1" style="stop-color:#FBB216" />
-                </linearGradient>
-                <rect x="33.4" y="70" class="st0" width="23" height="70" />
-                <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="80.7544" y1="120" x2="80.7544" y2="40">
-                    <stop offset="0" style="stop-color:#F27029" />
-                    <stop offset="1" style="stop-color:#FBB216" />
-                </linearGradient>
-                <rect x="69.4" y="40" class="st1" width="22.7" height="80" />
-                <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="152.332" y1="124.9818" x2="152.332" y2="0">
-                    <stop offset="0" style="stop-color:#4DA004" />
-                    <stop offset="1" style="stop-color:#84F130" />
-                </linearGradient>
-                <rect x="141" class="st2" width="22.7" height="125" />
-                <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="188.1208" y1="100" x2="188.1208" y2="45">
-                    <stop offset="0" style="stop-color:#4DA004" />
-                    <stop offset="1" style="stop-color:#84F130" />
-                </linearGradient>
-                <rect x="176.8" y="45" class="st3" width="22.7" height="55" />
-                <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="116.5432" y1="145" x2="116.5432" y2="34.791">
-                    <stop offset="0" style="stop-color:#0061B3" />
-                    <stop offset="1" style="stop-color:#27AAE1" />
-                </linearGradient>
-                <rect x="105.2" y="34.8" class="st4" width="22.7" height="110.2" />
-                <g>
-                    <path class="st5" d="M253,24.8V114h-28.5V24.8h-47.3V1.8h109.6v23.1H253z" />
-                    <path class="st5" d="M353,82.4h-0.8h-21.6V114h-28.5V1.9h50.1c29.6,0,46.6,14.1,46.6,39.1c0,17.1-7.2,29.5-20.3,36l23.5,37h-32.3
-L353,82.4z M352.2,60c12.3,0,19.5-6.2,19.5-18.1c0-11.7-7.2-17.6-19.5-17.6h-21.6V60H352.2z" />
-                    <path class="st5" d="M446.7,93.3l-8.2,20.6h-29.3l48.3-112h29.3l47.2,112h-30.4l-8-20.6H446.7z M471.3,30.3L455,71.7h32.3
-L471.3,30.3z" />
-                    <path class="st5" d="M595.9,1.9c35.2,0,59.5,22.7,59.5,56c0,33.1-24.6,56-60.7,56h-47.1V1.9H595.9z M576.2,91.2h20.3
-c17.4,0,29.9-13.4,29.9-33.1c0-19.8-13.1-33.5-31.2-33.5h-19V91.2z" />
-                    <path class="st5" d="M702.2,24.3v22.3h53.5V69h-53.5v22.6h61V114h-89.5V1.9h87.7v22.4H702.2z" />
-                    <path class="st5" d="M997.5,1.9c35.2,0,59.5,22.7,59.5,56c0,33.1-24.6,56-60.7,56h-47.1V1.9H997.5z M977.8,91.2h20.3
-c17.4,0,29.9-13.4,29.9-33.1c0-19.8-13.1-33.5-31.2-33.5h-19V91.2z" />
-                    <path class="st5" d="M1097.8,93.3l-8.2,20.6h-29.3l48.3-112h29.3l47.2,112h-30.4l-8-20.6H1097.8z M1122.4,30.3l-16.3,41.5h32.3
-L1122.4,30.3z" />
-                    <path class="st5" d="M1247.9,114h-28.3V78.6l-41.5-76.7h28.5l27.1,48.8l26.4-48.8h28.5l-40.7,75.9V114z" />
-                </g>
-                <g>
-                    <path class="st6" d="M797.7,49.1c-4.1-2.2-7.4-5.2-9.7-9.1c-2.4-3.9-3.5-8.2-3.5-13.1c0-4.8,1.2-9.2,3.5-13.1
-c2.4-3.9,5.6-6.9,9.7-9.1c4.1-2.2,8.8-3.3,13.9-3.3s9.8,1.1,13.9,3.3c4.1,2.2,7.4,5.2,9.7,9.1c2.4,3.9,3.5,8.2,3.5,13.1
-c0,4.8-1.2,9.2-3.5,13.1c-2.4,3.9-5.6,6.9-9.7,9.1c-4.1,2.2-8.8,3.3-13.9,3.3S801.9,51.3,797.7,49.1z M818.4,39.2
-c2-1.2,3.6-2.8,4.8-4.9c1.2-2.1,1.7-4.6,1.7-7.3c0-2.7-0.6-5.2-1.7-7.3c-1.2-2.1-2.8-3.8-4.8-4.9c-2-1.2-4.2-1.7-6.7-1.7
-c-2.5,0-4.7,0.6-6.7,1.7c-2,1.2-3.6,2.8-4.8,4.9c-1.2,2.1-1.7,4.6-1.7,7.3c0,2.8,0.6,5.2,1.7,7.3c1.2,2.1,2.7,3.8,4.8,4.9
-c2,1.2,4.2,1.7,6.7,1.7C814.2,40.9,816.4,40.4,818.4,39.2z" />
-                    <path class="st6" d="M861.2,13.2V24h21.6v10.7h-21.6v16.8h-13.8V2.5h38.4v10.7H861.2z" />
-                    <path class="st6" d="M797.4,75.3h-15v-11h43.8v11h-15v38h-13.8V75.3z" />
-                    <path class="st6" d="M879.2,64.3v48.9h-13.8V94.2h-18.9v19.1h-13.8V64.3h13.8v18.4h18.9V64.3H879.2z" />
-                    <path class="st6" d="M929.4,102.5v10.7h-39.3V64.3h38.4V75h-24.7v8.2h21.7v10.3h-21.7v8.9H929.4z" />
-                </g>
-                <polygon class="st7" points="176.8,115 176.8,157.3 22.7,157.3 22.7,24.7 125.7,24.7 125.7,1.9 22.7,1.9 0,1.9 0,24.7 0,157.3 
-0,180 22.7,180 176.8,180 199.5,180 199.5,157.3 199.5,115 " />
-            </svg>
+        <!--GOOGLE TAG MANAGER-->
+        <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-WRX2CNB&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
+        <!--END GOOGLE TAG MANAGER-->
+        <!--BLUE CONTAINER FOR LOGO-->
+        <div class="container-fluid">
+            <header class="row">
+            <div class="col-md-4">
+                <!-- LOGO INLINE SVG-->
+            <!--Include the logo svg in a file, here.-->
+            <amp-img src="/static/samples/img/amp_by_example_logo.svg"
+                width="208"
+                height="40"
+                alt="AMP by Example"
+                noloading>
+            </amp-img>
+            </div> <!--END LOGO DIV-->
 
-    </header>  <!-- END LOGO -->
-    <section id="banner"> <!--NEED BACKGROUND IMAGE-->
+        </header>  <!-- END HEADER ROW -->
 
-    </section> <!--END BANNER -->
-    <section id="about"></section> <!-- END ABOUT -->
-    <section id="strategies"></section> <!-- END STRATEGIES -->
-    <section id="cards"></section> <!-- END CARDS -->
-    <section id="join"></section> <!-- END JOIN -->
-    <footer></footer>
+        <!--BANNER SECTION-->
+            <section class="container-fluid">
+                <div class="col-12">
+                    <h1>one new trade alert. <br class="d-md-none d-lg-none"> per day.<br> delivered to your inbox.<br>
+                        <span>for free.</span>
+                    </h1>
+                </div>
+                <form class="form" action=https://signupapp2.com/signupapp/signups/process method=post class="col-xs-10 col-md-12 col-lg-5 mb-5 pb-md-3 mb-md-3 mb-lg-0">
+                    <input type=text class="addpad mb-3 mt-lg-2 form-control text-center" aria-describedby=email placeholder="Enter your email" name=signup.emailAddress>
+                    <input name=signup.listCode type=hidden value=TRADEDAY />
+                    <input name=signup.sourceId type=hidden value=X325V901 />
+                    <input name=signup.welcomeEmailTemplateName type=hidden value=tradeday_generic />
+                    <input name=coRegSignups[0].checked type=hidden value=true />
+                    <input name=coRegSignups[0].listCode type=hidden value=TDDED />
+                    <input name=coRegSignups[0].sourceId type=hidden value=X325V901 />
+                    <input class="p-4 btn col-sm-12 col-md-12 col-lg-12 submit_me" type=submit value="Sign me up!" class="p-5 col-12">
 
-
-
+                    <a href="https://monumenttradersalliance.com/privacy-policy/" class="text-white pt-5 pb-md-5 private_size">Privacy Policy  |</a><a href="https://monumenttradersalliance.com/disclaimer/" class="text-white pt-5 private_size">  Disclaimer</a>
+                </form>
+            </section>
+        </div>
     </body>
 </html>
