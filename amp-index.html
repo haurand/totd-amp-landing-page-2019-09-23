@@ -23,6 +23,17 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 /* Custom styles from the first TOTD template (plain html and css) */
+
+.outer {
+  height: 253.3px;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 .addpad {
 	font-style: normal;
 	font-weight: 400;
@@ -167,7 +178,7 @@ h2 {
 
 	.about p {
 		font-family: montserrat,sans-serif;
-		font-size: 20pxƒ;
+		font-size: 20px;
 		font-style: normal;
 		font-weight: 400;
 		line-height: 1.5rem;
@@ -183,7 +194,7 @@ footer {
 	margin: 0-auto;
 }
 
-footer a,div {
+footer a {
 	font-size: .8rem;
 }
 
@@ -227,7 +238,6 @@ footer a,div {
 .card {
 	-moz-box-shadow: 2px -3px 24px 3px rgba(5,5,5,0.09);
 	-webkit-box-shadow: 2px -3px 24px 3px rgba(5,5,5,0.09);
-	border-radius: 10pxƒ;
 	box-shadow: 2px -3px 24px 3px 3px rgba(5,5,5,0.09);
 	min-height: 230px;
 	text-align: center;
@@ -262,10 +272,6 @@ footer a,div {
 		font-weight: 400;
 		padding-top: 5%;
 	}
-}
-
-.about p,a {
-	font-size: .8rem;
 }
 
 .card-title {
@@ -346,13 +352,18 @@ footer a:hover {
         <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-WRX2CNB&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
         <!--END GOOGLE TAG MANAGER-->
         <!--BLUE CONTAINER FOR LOGO-->
-        <!DOCTYPE html>
-<body>
+
     <div class=container-fluid>
         <div id=container>
             <nav class="row h-sm-40 justify-content-center">
                 <div class="container pt-md-5 pb-md-5 pt-lg-5 pb-lg-5 pt-sm-5 pb-sm-5 pt-4 pb-4 totd_svg max-me-plz">
                     
+                        <amp-img src="images/totd-logo (1).svg"
+                        width="400"
+                        height="100"
+                        alt="AMP by Example"
+                        noloading></amp-img>
+
                 </div>
             </nav>
             <header class="row gradient">
@@ -405,64 +416,70 @@ footer a:hover {
             </section>
             <section class="strategies row pb-md-5 pb-lg-5 pb-3 pt-md-5 text-md-center">
                 <div class=container>
-                    <div class="row d-none d-md-flex">
+                    <div class="row d-none d-md-flex justify-content-around">
                         <h1 class="pr-3 pl-3 pb-4 pt-3 special" id="strategies_title_1">After 20 Years of Real-Time Trading, These Four Unique Formations Have Proven to be Consistently Profitable </h1>
-                        <div class="col-3 d-flex pb-3 pb-md-5">
-                            <div class="card align-self-strech">
-                                <!--<amp-img src=images/icon1copy.png alt class="w-50 mt-4 pt-4 mb-4 text-center mx-auto d-block">-->
+                        <div class="card col-2 d-flex outer p-3">
+                            <!--<amp-img src=images/icon1copy.png alt class="w-50 mt-4 pt-4 mb-4 text-center mx-auto d-block">-->
+                                <div class="pl-3 pr-3 pb-3 pt-2">
                                    <amp-img src="images/icon1copy.png"
-                        width="130.25"
-                        height="119.297"
-                        alt="AMP by Example"
-                        noloading>
-                    </amp-img>  
+                                        width="130.25"
+                                        height="119.297"
+                                        alt="AMP by Example"
+                                        noloading>
+                                    </amp-img>  
+                                </div>
                                 <h4 class=card-title>Strategy No. 1</h4>
                                 <h6 class="card-subtitle mb-2 text-muted">Insider Trading</h6>
-                            </div>
                         </div>
-                        <div class="col-3 d-flex pb-3 pb-md-5">
-                            <div class="card align-self-strech">
+                        <div class="card align-self-stretch col-2 d-flex outer p-3">
+
+                            <!-- <div class=""> -->
                                 <!--<img src=images/icon2copy.png alt class="w-50 mt-4 pt-3 mb-4 text-center mx-auto d-block">-->
-                              <amp-img src="images/icon2copy.png"
-                              width="130.250"
-                              height="130.250"
-                             
-                        alt="AMP by Example"
-                        noloading>
-                    </amp-img>  
+                            <div class="pl-3 pr-3 pb-3 pt-2">
+                                <amp-img src="images/icon2copy.png"
+                                    width="120.250"
+                                    height="120.25"
+                                
+                                    alt="AMP by Example"
+                                    noloading>
+                                </amp-img>  
+                            </div>
                                 <h4 class=card-title>Strategy No. 2</h4>
                                 <h6 class="card-subtitle mb-2 text-muted">Smart Options Trading</h6>
-                            </div>
+                            <!-- </div> -->
                         </div>
-                        <div class="col-3 d-flex pb-3 pb-md-5">
-                            <div class="card align-self-strech">
+                        <div class="card align-self-stretch col-2 d-flex outer p-3">
+
+                            <!-- <div class=""> -->
                                 <!--<img src=images/icon3copy.png alt class="w-50 mt-4 pt-4 pb-2 mb-4 text-center mx-auto d-block">-->
-                              
+                            <div class="p-3">  
                               <amp-img src="images/icon3copy.png"
                               width="130.250"
                               height="106.797"
                         alt="AMP by Example"
                         noloading>
-                    </amp-img>  
+                    </amp-img>  </div>
                               
                                 <h4 class=card-title>Strategy No. 3</h4>
                                 <h6 class="card-subtitle mb-2 text-muted">Small Cap Stocks</h6>
-                            </div>
+                            <!-- </div> -->
                         </div>
-                        <div class="col-3 d-flex pb-3 pb-md-5">
-                            <div class="card align-self-strech">
+                        <div class="card align-self-stretch col-2 d-flex outer p-3">
+
+                            <!-- <div class=""> -->
                                 <!--<img src=images/icon4copy.png alt class="w-50 mt-4 mb-4 text-center mx-auto d-block">-->
-                              
+                            <div class="pl-3 pr-3 pb-3">  
                               <amp-img src="images/icon4copy.png"
                         width="130.250"
-                        height="149.656"
+                        height="130.797"
                         alt="AMP by Example"
                         noloading>
                     </amp-img>  
+                    </div>
                               
                                 <h4 class=card-title>Strategy No. 4</h4>
                                 <h6 class="card-subtitle mb-2 text-muted">Stock Market Analysis</h6>
-                            </div>
+                            <!-- </div> -->
                         </div>
                     </div>
                     <div class="row d-block d-md-none bg-white">
@@ -471,12 +488,12 @@ footer a:hover {
                             <div class=row>
                                 <!--<img src=images/icon1copy.png alt class="w-25 h-25 mt-4 mb-4 text-center mx-auto d-block">-->
                               
-                              <amp-img src="images/icon1copy.png"
-                        width="208"
-                        height="40"
-                        alt="AMP by Example"
-                        noloading>
-                    </amp-img>  
+                                <amp-img src="images/icon1copy.png"
+                                width="130.25"
+                                height="119.297"
+                                alt="AMP by Example"
+                                noloading>
+                            </amp-img>  
                               
                             </div>
                             <div class="row d-block foo py-2 card_text_sm pt-4 pb-3">
@@ -487,12 +504,13 @@ footer a:hover {
                             <div class=row>
                                 <!--<img src=images/icon2copy.png alt class="w-25 h-25 mt-4 pt-3 mb-4 text-center mx-auto d-block">-->
                               
-                              <amp-img src="images/icon2copy.png"
-                        width="208"
-                        height="40"
-                        alt="AMP by Example"
-                        noloading>
-                    </amp-img>  
+                                <amp-img src="images/icon2copy.png"
+                                width="130.250"
+                                height="130.250"
+                               
+                          alt="AMP by Example"
+                          noloading>
+                      </amp-img>   
                               
                             </div>
                             <div class="row d-block foo py-2 card_text_sm pt-4 pb-3">
@@ -503,12 +521,12 @@ footer a:hover {
                             <div class=row>
                                 <!--<img src=images/icon3copy.png alt class="w-25 h-25 mt-4 pt-3 mb-4 text-center mx-auto d-block">-->
                               
-                              <amp-img src="images/icon3copy.png"
-                        width="208"
-                        height="40"
-                        alt="AMP by Example"
-                        noloading>
-                    </amp-img>  
+                                <amp-img src="images/icon3copy.png"
+                                width="130.250"
+                                height="106.797"
+                          alt="AMP by Example"
+                          noloading>
+                      </amp-img>  
                               
                             </div>
                             <div class="row d-block foo py-2 card_text_sm pt-4 pb-3">
@@ -517,14 +535,12 @@ footer a:hover {
                         </div>
                         <div class=col-12>
                             <div class=row>
-                                <!--<img src=images/icon4copy.png alt class="w-25 h-25 mt-3 pt-3 mb-4 text-center mx-auto d-block">-->
-
-                            <amp-img src="images/icon4copy.png"
-                                width="208"
-                                height="40"
+                                <amp-img src="images/icon4copy.png"
+                                width="130.250"
+                                height="149.656"
                                 alt="AMP by Example"
                                 noloading>
-                            </amp-img> 
+                            </amp-img>  
 
                             </div>
                             <div class="row d-block foo py-2 card_text_sm pt-4 pb-3">
